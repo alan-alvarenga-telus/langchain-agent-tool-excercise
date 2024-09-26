@@ -11,6 +11,7 @@ langchain = "^0.3.1"
 langchain-community = "^0.3.1"
 langchain-openai = "^0.2.0"
 langchainhub = "^0.1.21"
+openai = "^1.48.0"
 
 
 [build-system]
@@ -18,4 +19,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-bot="agent_nulling_finder.main:fill_missing_properties"
+bot = "agent_nulling_finder.main:fill_missing_properties"
+gpt = "agent_nulling_finder.gpt_version:fill_missing_properties"

@@ -16,8 +16,7 @@ trim_trailing_whitespace = true
 # Python files
 [*.py]
 indent_size = 4
-max_line_length = 88  # Consistent with Black formatter defaults
-
+max_line_length = 88
 # JSON files
 [*.json]
 indent_size = 2
