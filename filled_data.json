@@ -1,0 +1,27 @@
+[
+    {
+        "account_id": "John Doe-999",
+        "account_central_id": null,
+        "account_owner": "John Doe"
+    },
+    {
+        "account_id": "Jane Smith-999",
+        "account_central_id": null,
+        "account_owner": "Jane Smith"
+    },
+    {
+        "account_id": "Emily Johnson-999",
+        "account_central_id": "CENTRAL_987",
+        "account_owner": "Emily Johnson"
+    },
+    {
+        "account_id": "Michael Brown-999",
+        "account_central_id": "CENTRAL_543",
+        "account_owner": "Michael Brown"
+    },
+    {
+        "account_id": "Olivia Davis-999",
+        "account_central_id": null,
+        "account_owner": "Olivia Davis"
+    }
+]

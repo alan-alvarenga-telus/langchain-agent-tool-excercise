@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "agent-nulling-finder"
+version = "0.1.0"
+description = ""
+authors = ["Alan Alvarenga <alan.alvarengamejia1@telus.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.1"
+langchain-community = "^0.3.1"
+langchain-openai = "^0.2.0"
+langchainhub = "^0.1.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bot="agent_nulling_finder.main:fill_missing_properties"
